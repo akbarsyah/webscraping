@@ -1,6 +1,3 @@
-h1{
-    font-family: sans-serif;
-}
 
 table{
     font-family: Arial, Helvetica, sans-serif;
@@ -8,16 +5,18 @@ table{
     color: rgb(0, 0, 0);
     background: #0000;
     border: rgb(12, 0, 0) 1px solid;
+    margin-left: 15%;
+    margin-bottom: 3%;
 }
 
 table th{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     text-shadow: black;
-    padding: 15px 35px;
+    padding: 18px 100px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-    background: #eead20;
+    background: #2874A6;
 }
 
 table th:first-child{
@@ -40,7 +39,7 @@ table td{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
-    background: #c99b03;
+    background: #EBF5FB;
     background: -webkit-gradient(linear, left top, left bottom, from (#45a5c2), to(#45a5c2));
     background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
 }
@@ -62,7 +61,7 @@ table tr:last-child td:last-child {
     }
 
 table tr:hover td {
-    background: #f2f2f2;    
-    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0)); 
-    background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+    background: #D4E6F1;    
+    background: -webkit-gradient(linear, left top, left bottom, from(#D4E6F1), to(#D4E6F1)); 
+    background: -moz-linear-gradient(top, #D4E6F1, #D4E6F1);
 }
